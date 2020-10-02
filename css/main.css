@@ -44,8 +44,9 @@ hr {
 /*Main Content */
 
 .hero_img {
-    max-width: 100%;
+    width: 100%;
     margin-bottom: 25px;
+    border: 1px solid red;
 }
 
 .featured_row {
@@ -109,6 +110,12 @@ footer {
     .featured_item {
         width: 32.6%;
         border: 2px solid white;
+    }
+}
+
+@media screen and (min-width:767px) {
+    .hero_img {
+        height: 400px;
     }
 }
 
