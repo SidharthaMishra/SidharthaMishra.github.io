@@ -1,3 +1,6 @@
+/* Color Vars */
+/*#202020*/
+/*fonts*/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -5,6 +8,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Open+Sans:wght@300;400;700&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -348,6 +352,24 @@ template {
 body {
   width: 100%;
   height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.tagline {
+  font-weight: 300;
+}
+
+a {
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */
