@@ -2,17 +2,5 @@
 //             Base Imports
 // =============================================
 @import "normalize";
+@import "base";
 @import "typography";
-
-/*General Setup*/
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  width: 100%;
-  height: auto;
-}
