@@ -354,6 +354,11 @@ body {
   height: 100%;
 }
 
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -374,6 +379,10 @@ h6 {
 
 .tagline {
   font-weight: 300;
+}
+
+.navbar-brand {
+  padding-left: 1rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
