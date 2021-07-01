@@ -1,0 +1,16 @@
+.hero {
+  align-items: center;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(3, 3, 3, 0.5)),
+    url("/img/hero_img_lg.jpg");
+  background-size: cover;
+  background-position: 100%;
+  color: #fff;
+  display: flex;
+  height: 200px;
+}
+.hero__heading {
+  font-weight: $regular-weight;
+}
+.tagline {
+  font-weight: $light-weight;
+}

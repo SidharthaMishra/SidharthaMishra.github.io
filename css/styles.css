@@ -377,12 +377,36 @@ h6 {
   font-weight: 400;
 }
 
+h1 {
+  margin-top: 0;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
 .tagline {
   font-weight: 300;
 }
 
 .navbar-brand {
   padding-left: 1rem;
+}
+
+.hero {
+  align-items: center;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(3, 3, 3, 0.5)), url("/img/hero_img_lg.jpg");
+  background-size: cover;
+  background-position: 100%;
+  color: #fff;
+  display: flex;
+  height: 200px;
+}
+
+.hero__heading {
+  font-weight: 400;
+}
+
+.tagline {
+  font-weight: 300;
 }
 
 /*# sourceMappingURL=styles.css.map */
