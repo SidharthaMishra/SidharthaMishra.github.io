@@ -1,4 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Open+Sans:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Open+Sans:wght@300;400;700&display=swap");
 
+html {
+  font-size: 62.5rem; //10px
+}
+body {
+  font-family: $text-font;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font;
+  font-weight: $regular-weight;
+}
 
+.tagline {
+  font-weight: $light-weight;
+}
+
+a {
+  color: white;
+}

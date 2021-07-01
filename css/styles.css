@@ -342,16 +342,12 @@ template {
   display: none;
 }
 
-/*General Setup*/
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+html {
+  font-size: 62.5rem;
 }
 
 body {
-  width: 100%;
-  height: auto;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1,
@@ -370,6 +366,18 @@ h6 {
 
 a {
   color: white;
+}
+
+/*General Setup*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
