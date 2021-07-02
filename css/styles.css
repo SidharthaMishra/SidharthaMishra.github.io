@@ -384,7 +384,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .tagline {
@@ -402,6 +402,14 @@ a {
 
 a:hover {
   cursor: pointer;
+}
+
+/* Contact Section */
+.contact__heading::after {
+  content: "______";
+  display: block;
+  font-size: 2rem;
+  padding-top: 0;
 }
 
 .navbar-brand {
@@ -437,6 +445,30 @@ a:hover {
 }
 .hero__social-icon:hover {
   color: #ca2017;
+}
+
+.media-element {
+  font-size: 1.5rem;
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container {
+  text-align: right;
+  margin-right: 0;
+}
+
+.media-element__icon {
+  font-size: 2rem;
+  margin: 0 0.75rem;
+}
+
+.media-element__info {
+  display: inline-block;
+  text-align: left;
+  margin-left: 0;
 }
 
 .page-footer {

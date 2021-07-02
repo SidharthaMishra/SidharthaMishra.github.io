@@ -24,7 +24,7 @@ h1 {
   margin-bottom: 0.5rem;
 }
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .tagline {
@@ -40,4 +40,12 @@ a {
 }
 a:hover {
   cursor: pointer;
+}
+
+/* Contact Section */
+.contact__heading::after {
+  content: "______";
+  display: block;
+  font-size: 2rem;
+  padding-top: 0;
 }

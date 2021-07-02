@@ -1,0 +1,20 @@
+.media-element {
+  font-size: 1.5rem;
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-container {
+  text-align: right;
+  margin-right: 0;
+}
+.media-element__icon {
+  font-size: 2rem;
+  margin: 0 0.75rem;
+}
+.media-element__info {
+  display: inline-block;
+  text-align: left;
+  margin-left: 0;
+}
