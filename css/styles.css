@@ -439,4 +439,17 @@ a:hover {
   color: #ca2017;
 }
 
+.page-footer {
+  background-color: #222;
+  color: #fff;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-footer .copyright {
+  align-self: center;
+  margin-bottom: 0;
+}
+
 /*# sourceMappingURL=styles.css.map */

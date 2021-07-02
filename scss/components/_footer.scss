@@ -1,0 +1,12 @@
+.page-footer {
+  background-color: $color_primary;
+  color: #fff;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .copyright {
+    align-self: center;
+    margin-bottom: 0;
+  }
+}
