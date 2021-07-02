@@ -404,16 +404,13 @@ a:hover {
   cursor: pointer;
 }
 
-.navbar {
-  padding-top: 0.2rem;
-  padding-bottom: 0.2rem;
-}
-
 .navbar-brand {
   padding: 0 0 0 0.5rem;
 }
 .navbar-brand img {
   padding: 0;
+  width: 30px;
+  height: 30px;
 }
 
 .hero {
