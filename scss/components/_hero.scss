@@ -14,3 +14,10 @@
 .tagline {
   font-weight: $light-weight;
 }
+.hero__social-icon {
+  font-size: 2rem;
+  margin: 5px;
+  &:hover {
+    color: $color-accent;
+  }
+}

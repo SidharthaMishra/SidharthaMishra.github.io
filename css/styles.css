@@ -1,5 +1,5 @@
 /* Color Vars */
-/*#202020*/
+/*#161616*/
 /*fonts*/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -383,8 +383,25 @@ h1 {
   margin-bottom: 0.5rem;
 }
 
+h2 {
+  font-size: 1.5rem;
+}
+
 .tagline {
   font-weight: 300;
+}
+
+a,
+a:hover {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
 }
 
 .navbar-brand {
@@ -407,6 +424,14 @@ h1 {
 
 .tagline {
   font-weight: 300;
+}
+
+.hero__social-icon {
+  font-size: 2rem;
+  margin: 5px;
+}
+.hero__social-icon:hover {
+  color: #ca2017;
 }
 
 /*# sourceMappingURL=styles.css.map */
