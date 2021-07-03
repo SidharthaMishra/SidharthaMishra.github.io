@@ -16,9 +16,12 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
-  .page-header,
-  .main-content,
-  .page-footer {
+  .hero {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-content {
     width: 1440px;
     margin: auto;
   }
