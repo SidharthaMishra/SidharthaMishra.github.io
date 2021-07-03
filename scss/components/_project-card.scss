@@ -1,0 +1,11 @@
+.card-body {
+  flex-direction: column;
+}
+.project-card__btn {
+  margin-top: auto;
+  border-color: $color-accent;
+  color: $color_accent;
+  &:hover {
+    background-color: $color_accent;
+  }
+}

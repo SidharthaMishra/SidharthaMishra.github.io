@@ -379,12 +379,18 @@ h6 {
 
 h1 {
   margin-top: 0;
-  font-size: 2rem;
+  font-size: 3.6rem;
+  /*2 rem*/
   margin-bottom: 0.5rem;
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 2.6rem;
+  /*1.8rem*/
+}
+
+h3 {
+  font-size: 2 rem;
 }
 
 .tagline {
@@ -402,6 +408,10 @@ a {
 
 a:hover {
   cursor: pointer;
+}
+
+p {
+  font-size: 1.4rem;
 }
 
 /* Contact Section */
@@ -447,6 +457,19 @@ a:hover {
   color: #ca2017;
 }
 
+.card-body {
+  flex-direction: column;
+}
+
+.project-card__btn {
+  margin-top: auto;
+  border-color: #ca2017;
+  color: #ca2017;
+}
+.project-card__btn:hover {
+  background-color: #ca2017;
+}
+
 .media-element {
   font-size: 1.5rem;
   padding: 1.5rem 0;
@@ -481,6 +504,7 @@ a:hover {
 }
 .page-footer .copyright {
   margin-bottom: 0;
+  font-size: 1rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
