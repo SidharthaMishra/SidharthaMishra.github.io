@@ -359,15 +359,10 @@ body {
   padding-left: 0;
 }
 
-@media screen and (min-width: 1440px) {
-  .hero {
-    max-width: 1024px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
+/*1440px*/
+@media screen and (min-width: 1024px) {
   .main-content {
-    width: 1440px;
+    width: 1024px;
     margin: auto;
   }
 }
@@ -488,6 +483,16 @@ p {
   color: #ca2017;
 }
 
+/*1440px*/
+@media screen and (min-width: 1024px) {
+  .hero {
+    max-width: 1024px;
+    /*1440px*/
+    /*1024px*/
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .card-body {
   flex-direction: column;
 }
