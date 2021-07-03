@@ -14,3 +14,12 @@ body {
   padding-right: 0;
   padding-left: 0;
 }
+
+@media screen and (min-width: 1440px) {
+  .page-header,
+  .main-content,
+  .page-footer {
+    width: 1440px;
+    margin: auto;
+  }
+}

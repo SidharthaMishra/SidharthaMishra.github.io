@@ -9,3 +9,17 @@
     background-color: $color_accent;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .projects {
+    padding: 0 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .projects {
+    max-width: 1024px;
+  }
+}

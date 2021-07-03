@@ -359,6 +359,14 @@ body {
   padding-left: 0;
 }
 
+@media screen and (min-width: 1440px) {
+  .page-header,
+.main-content,
+.page-footer {
+    width: 1440px;
+    margin: auto;
+  }
+}
 html {
   font-size: 62.5%;
 }
@@ -422,15 +430,34 @@ p {
   padding-top: 0;
 }
 
+.navbar-container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
 .navbar-brand {
   padding: 0 0 0 0.5rem;
 }
 .navbar-brand img {
   padding: 0;
-  width: 30px;
-  height: 30px;
+  width: 3rem;
+  /*30px;*/
+  height: 3rem;
+  /*30px;*/
 }
 
+@media screen and (min-width: 768px) {
+  .navbar-brand img {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .navbar-brand {
+    padding: 0;
+  }
+}
 .hero {
   align-items: center;
   background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(3, 3, 3, 0.5)), url("/img/hero_img_lg.jpg");
@@ -470,6 +497,18 @@ p {
   background-color: #ca2017;
 }
 
+@media screen and (min-width: 768px) {
+  .projects {
+    padding: 0 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .projects {
+    max-width: 1024px;
+  }
+}
 .media-element {
   font-size: 1.5rem;
   padding: 1.5rem 0;
