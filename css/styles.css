@@ -519,6 +519,47 @@ p {
     max-width: 1024px;
   }
 }
+.close,
+.modal__arrow-container {
+  font-size: 1.5rem;
+}
+
+.modal__arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 20%;
+}
+.modal__arrow-container i {
+  display: inline-block;
+  justify-self: center;
+}
+
+.repo-btn {
+  color: #ca2017;
+  border-color: #ca2017;
+}
+
+.demo-btn {
+  background-color: #ca2017;
+  color: #fff;
+}
+
+.repo-btn:hover,
+.repo-btn:active,
+.repo-btn:focus {
+  background-color: #ca2017;
+  color: #fff;
+}
+
+.demo-btn:hover,
+.demo-btn:active,
+.demo-btn:focus {
+  background-color: #9c1912;
+  border-color: #9c1912;
+  color: #fff;
+}
+
 .media-element {
   font-size: 1.5rem;
   padding: 1.5rem 0;
