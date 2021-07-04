@@ -70,7 +70,11 @@
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card h-100 project-card">
-              <img src="/img/employee_directory.png" class="card-img-top" />
+              <img
+                src="/img/employee_directory.png"
+                alt="Screenshot of Project"
+                class="card-img-top"
+              />
               <div class="card-body d-flex">
                 <h3 class="card-title fw-bold text-center">
                   Employee Directory
@@ -93,7 +97,11 @@
           </div>
           <div class="col">
             <div class="card h-100 project-card">
-              <img src="/img/web_app_dashboard.png" class="card-img-top" />
+              <img
+                src="/img/web_app_dashboard.png"
+                class="card-img-top"
+                alt="Screenshot of Project"
+              />
               <div class="card-body d-flex">
                 <h3 class="card-title fw-bold text-center">
                   Web App Dashboard
@@ -115,7 +123,11 @@
           </div>
           <div class="col">
             <div class="card h-100 project-card">
-              <img src="/img/game_show_app.png" class="card-img-top" />
+              <img
+                src="/img/game_show_app.png"
+                class="card-img-top"
+                alt="Screenshot of Project"
+              />
               <div class="card-body d-flex">
                 <h3 class="card-title fw-bold text-center">Game Show App</h3>
                 <p class="card-text">
@@ -139,6 +151,7 @@
               <img
                 src="/img/interactive_photo_gallery.png"
                 class="card-img-top"
+                alt="Screenshot of Project"
               />
               <div class="card-body d-flex">
                 <h3 class="card-title fw-bold text-center">
@@ -161,7 +174,11 @@
           </div>
           <div class="col">
             <div class="card h-100 project-card">
-              <img src="/img/memory_game.png" class="card-img-top" />
+              <img
+                src="/img/memory_game.png"
+                class="card-img-top"
+                alt="Screenshot of Project"
+              />
               <div class="card-body d-flex">
                 <h3 class="card-title fw-bold text-center">Memory Game</h3>
                 <p class="card-text">
@@ -184,6 +201,7 @@
               <img
                 src="/img/online_registration_form.png"
                 class="card-img-top"
+                alt="Screenshot of Project"
               />
               <div class="card-body d-flex">
                 <h3 class="card-title fw-bold text-center">
@@ -264,15 +282,15 @@
       id="projectModal"
       tabindex="-1"
       role="dialog"
-      aria-labelledby="Project Modal"
+      aria-labelledby="projectModalLabel"
       aria-hidden="true"
     >
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title" id="Project Modal">Project Info</h4>
+            <h4 class="modal-title" id="projectModalLabel">Project Info</h4>
             <a
-              type="button"
+              href="#"
               class="close text-dark"
               data-dismiss="modal"
               aria-label="Close"
@@ -295,19 +313,13 @@
           </div>
           <div class="modal-footer">
             <a
-              type="button"
               class="btn btn-outline-danger project-card__btn repo-btn"
               href="#"
               target="_blank"
             >
               View Repo
             </a>
-            <a
-              type="button"
-              class="btn project-card__btn demo-btn"
-              href="#"
-              target="_blank"
-            >
+            <a class="btn project-card__btn demo-btn" href="#" target="_blank">
               View Demo
             </a>
           </div>
