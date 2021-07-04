@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const demoBtn = modal.querySelector(".demo-btn");
     const backArrow = modal.querySelector(".left-arrow");
     const nextArrow = modal.querySelector(".right-arrow");
+    const scrollTop = document.querySelector(".scroll-top");
     let cardIndex = 0;
 
      //----------------------------------------------------//
@@ -142,4 +143,12 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
+    scrollTop.addEventListener("click",function(e){
+        let scrollY = document.scrollY;
+        for(let i = scrollY;i>-1;i--){
+            setTimeout(()=>{
+                scrollY--;
+            },100);
+        }
+    })
 });
