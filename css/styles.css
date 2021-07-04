@@ -501,6 +501,7 @@ p {
   margin-top: auto;
   border-color: #ca2017;
   color: #ca2017;
+  font-size: 1.2rem;
 }
 .project-card__btn:hover {
   background-color: #ca2017;
