@@ -150,5 +150,5 @@ document.addEventListener("DOMContentLoaded", function() {
                 scrollY--;
             },100);
         }
-    })
+    });
 });
