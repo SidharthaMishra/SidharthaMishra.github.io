@@ -11,6 +11,9 @@
     display: inline-block;
     justify-self: center;
   }
+  &:hover {
+    cursor: pointer;
+  }
 }
 .repo-btn {
   color: $color-accent;

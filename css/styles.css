@@ -534,6 +534,9 @@ p {
   display: inline-block;
   justify-self: center;
 }
+.modal__arrow-container:hover {
+  cursor: pointer;
+}
 
 .repo-btn {
   color: #ca2017;
