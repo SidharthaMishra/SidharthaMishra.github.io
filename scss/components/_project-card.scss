@@ -11,7 +11,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: $breakpoint-medium) {
   .projects {
     padding: 0 1rem;
     margin-left: auto;
@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: $breakpoint-large) {
   .projects {
     max-width: 1024px;
   }
