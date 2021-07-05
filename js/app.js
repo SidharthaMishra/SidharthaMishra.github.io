@@ -1,14 +1,22 @@
 document.addEventListener("DOMContentLoaded", function() {
     "use strict";
-
      //----------------------------------------------------//
      //                  Vars                              //
      //----------------------------------------------------//
     const projectsSection = document.querySelector(".projects");
     const projectCards = projectsSection.querySelectorAll(".project-card");
+    /* 
+        Array of Project Objects:
+        {
+            title:project_title,
+            desc:project_desc,
+            img:img_src,
+            repoURL:repo_url,
+            demoURL:demo_url
+        }
+    */
     let projects = [];
     const modal = document.querySelector(".project-modal");
-    const modalCard = modal.querySelector(".project-card");
     const repoBtn = modal.querySelector(".repo-btn");
     const demoBtn = modal.querySelector(".demo-btn");
     const backArrow = modal.querySelector(".left-arrow");
@@ -16,21 +24,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const scrollTop = document.querySelector(".scroll-top");
     let cardIndex = 0;
 
-     //----------------------------------------------------//
-     //                  Functions                         //
-     //----------------------------------------------------//
-
-
-/* Array of Project Objects:
-    {
-        title:project_title,
-        desc:project_desc,
-        img:img_src,
-        repoURL:repo_url,
-        demoURL:demo_url
-    }
-
-*/
+    //----------------------------------------------------//
+    //                  Functions                         //
+    //----------------------------------------------------//
     function getProjects(){
         [...projectCards].forEach(function(card){
             let projectTitle = card.children[1].children[0].innerText;
@@ -47,22 +43,17 @@ document.addEventListener("DOMContentLoaded", function() {
             projects.push(project);
         });
     }
-
     getProjects();
-
     //Get Index of Card that was Clicked
     function getCardIndex(btn){
         let title = btn.parentNode.querySelector(".card-title").innerText;
-
         for(let i =0;i<projects.length;i++){
             if(projects[i].title===title){
                 return i;
             }
         }
         return -1;
-
     }
-
     //Generate and return modal dialog content
     function generateModalContent(index) {
         let project = projects[index];
@@ -79,7 +70,6 @@ document.addEventListener("DOMContentLoaded", function() {
            `;
         return card;
     }
-
     //Decrements cardIndex
     function decrCardIndex() {
         if (cardIndex <= 0) {
@@ -88,7 +78,6 @@ document.addEventListener("DOMContentLoaded", function() {
             cardIndex--;
         }
     }
-
     //Increments cardIndex
     function incrCardIndex() {
         if (cardIndex < projects.length - 1) {
@@ -113,28 +102,22 @@ document.addEventListener("DOMContentLoaded", function() {
         incrCardIndex();
         showCurrentProjectInfo();
     }
-
-     //----------------------------------------------------//
-     //                  Event Listeners                   //
-     //----------------------------------------------------//
-
+    //----------------------------------------------------//
+    //                  Event Listeners                   //
+    //----------------------------------------------------//
     projectsSection.addEventListener("click", function(e) {
         const element = e.target;
         if(element.type==="button"){
             cardIndex=getCardIndex(e.target);
             showCurrentProjectInfo();
         }
-
     });
-
     backArrow.addEventListener("click", function() {
         prevProject();
     });
-
     nextArrow.addEventListener("click", function() {
         nextProject();
     });
-
     modal.addEventListener("keyup", function(e) {
         if (e.key === 'ArrowRight') {
             nextProject();
@@ -142,7 +125,6 @@ document.addEventListener("DOMContentLoaded", function() {
             prevProject();
         }
     });
-
     scrollTop.addEventListener("click",function(e){
         let scrollY = document.scrollY;
         for(let i = scrollY;i>-1;i--){
