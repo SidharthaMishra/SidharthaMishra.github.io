@@ -1,0 +1,40 @@
+.close,
+.modal__arrow-container {
+  font-size: 1.5rem;
+}
+.modal__arrow-container {
+  align-items: center;
+  flex-basis: 20%;
+  justify-content: center;
+  i {
+    display: inline-block;
+    justify-self: center;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+.repo-btn {
+  border-color: $color-accent;
+  color: $color-accent;
+}
+
+.demo-btn {
+  background-color: $color-accent;
+  color: #fff;
+}
+
+.repo-btn:hover,
+.repo-btn:active,
+.repo-btn:focus {
+  background-color: $color-accent;
+  color: #fff;
+}
+
+.demo-btn:hover,
+.demo-btn:active,
+.demo-btn:focus {
+  background-color: darken($color-accent, 10%);
+  border-color: darken($color-accent, 10%);
+  color: #fff;
+}

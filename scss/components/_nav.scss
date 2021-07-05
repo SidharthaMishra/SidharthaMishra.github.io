@@ -1,0 +1,28 @@
+.navbar-container {
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 100%;
+}
+.navbar-brand {
+  padding: 0 0 0 0.5rem;
+  img {
+    height: 3rem;
+    padding: 0;
+    width: 3rem;
+  }
+}
+
+@include mq($breakpoint-medium) {
+  .navbar-brand {
+    img {
+      height: 4rem;
+      width: 4rem;
+    }
+  }
+}
+
+@include mq($breakpoint-large) {
+  .navbar-brand {
+    padding: 0;
+  }
+}

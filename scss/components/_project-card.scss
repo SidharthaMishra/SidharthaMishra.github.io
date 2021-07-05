@@ -1,0 +1,25 @@
+.card-body {
+  flex-direction: column;
+}
+.project-card__btn {
+  border-color: $color-accent;
+  color: $color_accent;
+  font-size: 1.4rem;
+  margin-top: auto;
+  &:hover {
+    background-color: $color_accent;
+  }
+}
+
+@include mq($breakpoint-medium) {
+  .projects {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
+  }
+}
+@include mq($breakpoint-large) {
+  .projects {
+    max-width: 1024px;
+  }
+}

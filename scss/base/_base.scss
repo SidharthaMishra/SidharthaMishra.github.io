@@ -1,0 +1,23 @@
+/*General Setup*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+@include mq($breakpoint-large) {
+  .main-content {
+    width: 1024px;
+    margin: auto;
+  }
+}
