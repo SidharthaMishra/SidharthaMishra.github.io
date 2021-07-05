@@ -2,10 +2,10 @@
   flex-direction: column;
 }
 .project-card__btn {
-  margin-top: auto;
   border-color: $color-accent;
   color: $color_accent;
   font-size: 1.4rem;
+  margin-top: auto;
   &:hover {
     background-color: $color_accent;
   }
@@ -13,9 +13,9 @@
 
 @include mq($breakpoint-medium) {
   .projects {
-    padding: 0 1rem;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 1rem;
   }
 }
 @include mq($breakpoint-large) {

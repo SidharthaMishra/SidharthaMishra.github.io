@@ -5,7 +5,6 @@
   background-size: cover;
   background-position: 100%;
   color: #fff;
-  display: flex;
   height: 200px;
 }
 .hero__heading {
@@ -24,8 +23,8 @@
 
 @include mq($breakpoint-large) {
   .hero {
-    max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
+    max-width: 1024px;
   }
 }

@@ -427,24 +427,24 @@ p {
 }
 
 .navbar-container {
-  width: 100%;
   margin: 0 auto;
   max-width: 1024px;
+  width: 100%;
 }
 
 .navbar-brand {
   padding: 0 0 0 0.5rem;
 }
 .navbar-brand img {
+  height: 3rem;
   padding: 0;
   width: 3rem;
-  height: 3rem;
 }
 
 @media screen and (min-width: 768px) {
   .navbar-brand img {
-    width: 4rem;
     height: 4rem;
+    width: 4rem;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -458,7 +458,6 @@ p {
   background-size: cover;
   background-position: 100%;
   color: #fff;
-  display: flex;
   height: 200px;
 }
 
@@ -480,9 +479,9 @@ p {
 
 @media screen and (min-width: 1024px) {
   .hero {
-    max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
+    max-width: 1024px;
   }
 }
 .card-body {
@@ -490,10 +489,10 @@ p {
 }
 
 .project-card__btn {
-  margin-top: auto;
   border-color: #ca2017;
   color: #ca2017;
   font-size: 1.4rem;
+  margin-top: auto;
 }
 .project-card__btn:hover {
   background-color: #ca2017;
@@ -501,9 +500,9 @@ p {
 
 @media screen and (min-width: 768px) {
   .projects {
-    padding: 0 1rem;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 1rem;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -517,10 +516,9 @@ p {
 }
 
 .modal__arrow-container {
-  display: flex;
-  justify-content: center;
   align-items: center;
   flex-basis: 20%;
+  justify-content: center;
 }
 .modal__arrow-container i {
   display: inline-block;
@@ -531,8 +529,8 @@ p {
 }
 
 .repo-btn {
-  color: #ca2017;
   border-color: #ca2017;
+  color: #ca2017;
 }
 
 .demo-btn {
@@ -556,16 +554,15 @@ p {
 }
 
 .media-element {
-  font-size: 1.5rem;
-  padding: 1.5rem 0;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  font-size: 1.5rem;
+  justify-content: center;
+  padding: 1.5rem 0;
 }
 
 .icon-container {
-  text-align: right;
   margin-right: 0;
+  text-align: right;
 }
 
 .media-element__icon {
@@ -574,33 +571,30 @@ p {
 }
 
 .media-element__info {
-  display: inline-block;
-  text-align: left;
   margin-left: 0;
+  text-align: left;
 }
 
 .scroll-top-container {
-  width: 100%;
-  height: 50px;
-  font-size: 1.4rem;
-  display: flex;
-  justify-content: flex-end;
   align-items: center;
+  font-size: 1.4rem;
+  height: 50px;
+  justify-content: flex-end;
   padding-right: 5px;
+  width: 100%;
 }
 
 .page-footer {
+  align-items: center;
   background-color: #222;
   color: #fff;
   height: 25px;
-  display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .copyright {
-  margin-bottom: 0;
   font-size: 1.2rem;
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
