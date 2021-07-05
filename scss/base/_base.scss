@@ -14,8 +14,8 @@ body {
   padding-right: 0;
   padding-left: 0;
 }
-/*1440px*/
-@media screen and (min-width: $breakpoint-large) {
+
+@include mq($breakpoint-large) {
   .main-content {
     width: 1024px;
     margin: auto;

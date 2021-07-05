@@ -1,5 +1,4 @@
 /* Color Vars */
-/*#161616*/
 /*fonts*/
 /*Breakpoints*/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -360,7 +359,6 @@ body {
   padding-left: 0;
 }
 
-/*1440px*/
 @media screen and (min-width: 1024px) {
   .main-content {
     width: 1024px;
@@ -388,13 +386,11 @@ h6 {
 h1 {
   margin-top: 0;
   font-size: 3.6rem;
-  /*2 rem*/
   margin-bottom: 0.5rem;
 }
 
 h2 {
   font-size: 2.6rem;
-  /*1.8rem*/
 }
 
 h3 {
@@ -442,9 +438,7 @@ p {
 .navbar-brand img {
   padding: 0;
   width: 3rem;
-  /*30px;*/
   height: 3rem;
-  /*30px;*/
 }
 
 @media screen and (min-width: 768px) {
@@ -484,12 +478,9 @@ p {
   color: #ca2017;
 }
 
-/*1440px*/
 @media screen and (min-width: 1024px) {
   .hero {
     max-width: 1024px;
-    /*1440px*/
-    /*1024px*/
     margin-left: auto;
     margin-right: auto;
   }

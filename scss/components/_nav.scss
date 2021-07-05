@@ -7,12 +7,12 @@
   padding: 0 0 0 0.5rem;
   img {
     padding: 0;
-    width: 3rem; /*30px;*/
-    height: 3rem; /*30px;*/
+    width: 3rem;
+    height: 3rem;
   }
 }
 
-@media screen and (min-width: $breakpoint-medium) {
+@include mq($breakpoint-medium) {
   .navbar-brand {
     img {
       width: 4rem;
@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (min-width: $breakpoint-large) {
+@include mq($breakpoint-large) {
   .navbar-brand {
     padding: 0;
   }

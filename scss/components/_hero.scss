@@ -21,10 +21,10 @@
     color: $color-accent;
   }
 }
-/*1440px*/
-@media screen and (min-width: $breakpoint-large) {
+
+@include mq($breakpoint-large) {
   .hero {
-    max-width: 1024px; /*1440px*/ /*1024px*/
+    max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
   }

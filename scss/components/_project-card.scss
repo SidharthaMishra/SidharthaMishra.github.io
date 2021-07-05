@@ -11,15 +11,14 @@
   }
 }
 
-@media screen and (min-width: $breakpoint-medium) {
+@include mq($breakpoint-medium) {
   .projects {
     padding: 0 1rem;
     margin-left: auto;
     margin-right: auto;
   }
 }
-
-@media screen and (min-width: $breakpoint-large) {
+@include mq($breakpoint-large) {
   .projects {
     max-width: 1024px;
   }
