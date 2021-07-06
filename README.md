@@ -1,14 +1,10 @@
-# SidharthaMishra.github.io
+# Portfolio Site
 
-## Portfolio Site
-
----
-
-### Site URL: https://sidharthamishra.github.io
+## Site URL: https://sidharthamishra.github.io
 
 ---
 
-### Technologies Used
+## Technologies Used
 
 - HTML
 - CSS/Sass
@@ -23,13 +19,16 @@
 - Pexels
 - GitHub
 - VS Code
+- Chrome Dev Tools
 - W3 Validator (HTML/CSS)
 - JSHint
 - PicResize
+- Color Hunt
+- Tested on: Chrome, Safari, Firefox, and Opera
 
 ---
 
-### Initial Wireframe
+## Initial Wireframe
 
 ![Mobile Wireframe](./img/portfolio_site_wireframe_mobile.png)
 
@@ -37,7 +36,7 @@ _Wireframe Later Tweaked During Development_
 
 ---
 
-### Repo Structure
+## Repo Structure
 
 ```
 sidharthamishra.github.io
@@ -113,3 +112,5 @@ sidharthamishra.github.io
     |- README.md
 
 ```
+
+---
